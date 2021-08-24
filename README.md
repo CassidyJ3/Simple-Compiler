@@ -1,4 +1,4 @@
 # Simple-Compiler
-THE COMPILER PROGRAM UTILIZES LEX AND YACC TO VALIDATE CODE FOR A SIMPLISTIC CODING LANGUAGE AND OUTPUTS MIPS ASSEMBLY CODE THAT ACCOMPLISHES THE PURPOSES OF THE CODE BLOCK. IF A CODE BLOCK IS INVALID, THE PROGRAM PROVIDES EQUIVALENT CODE LEADING UP TO THE FIRST ERROR, WHICH IT IDENTIFIES THE LINE OF.
-LEX CONVERTS INPUT INTO TOKENS FOR USE BY THE YACC PORTION OF THE PROGRAM.
-YACC PROCESSES THE TOKENS TO SEE IF THEY FORM A SYNTACTICALLY CORRECT BLOCK OF CODE AND UTILIZES SMALL BLOCKS OF C CODE TO PRINT EQUIVALENT MIPS ASSEMBLY CODE.
+The compiler program utilizes LEX and YACC to validate code for a simplistic coding language and outputs MIPS assembly code that accomplishes the purposes of the code block. If a code block is invalid, the program provides equivalent code leading up to the first error, which it identifies the line of.
+LEX converts input into tokens for use by the YACC portion of the program.
+YACC processes the tokens to see if they form a syntactically correct block of code and utilizes small blocks of C code to print equivalent MIPS assembly code.
